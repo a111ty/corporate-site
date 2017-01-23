@@ -303,38 +303,38 @@ h2 {
   margin: 0 auto; }
 
 #main {
-  line-height: 24px;
-  padding-right: 20px; }
+  line-height: 24px; }
 
-.nine h2 {
+#contents #main h2 {
   border-bottom: 3px solid #42b9d0;
   color: #42b9d0;
   font-size: 15px;
-  font-size: 1.5rem;
   display: block;
   letter-spacing: -1px;
   line-height: 18.75px;
   margin-bottom: 20px;
   padding-bottom: 15px;
   font-weight: bold; }
+  
 
 @media (min-width: 550px) {
   #contents {
     padding-top: 35px;
     padding-bottom: 70px; }
 
-  #main {
+  #contents #main {
     padding-right: 20px; }
 
-  .nine h2 {
+  #contents #main h2 {
     font-size: 20px;
     padding-bottom: 20px;
     padding-right: 20px;
     line-height: 25px; } }
+
 .news_li li {
   list-style: none;
   font-size: 15px;
-  font-size: 1.5rem; }
+  margin-bottom: 10px;}
   .news_li li span {
     color: #42b9d0;
     font-weight: bold;
@@ -345,13 +345,13 @@ h2 {
   .news_li li {
     list-style: none;
     padding-bottom: 5px;
-    margin-bottom: 1rem;
-    line-height: 24px; }
+    margin-bottom: 1rem; }
     .news_li li span {
       color: #42b9d0;
       font-weight: bold;
-      display: inline;
-      padding-right: 10px; } }
+      display: inline-block;
+      padding-right: 10px;
+      margin-bottom: 0 } }
 #sidebar {
   box-sizing: border-box;
   display: block;
@@ -360,7 +360,7 @@ h2 {
   line-height: 24px; }
 
 .pc_sidemenu h3 {
-  background-color: #eaf2f4;
+  background-color: #f3f9fb;
   color: #42b9d0;
   font-size: 14px;
   font-weight: bold;
@@ -389,27 +389,27 @@ h2 {
 
 #contents #main h2.company_title {
   margin-bottom: 0;
-  font-size: 2rem;
+  font-size: 20px;
   padding-bottom: 20px; }
 
 @media (max-width: 550px) {
   .pc_sidemenu {
-    display: none; } }
-.company_title {
+    display: none; } 
+#contents #main h2.company_title {
   padding-bottom: 15px;
-  line-height: 18.75px; }
+  line-height: 18.75px;
+  font-size: 15px; } }
 
 .u-full-width tr {
   border-bottom-color: #eaf2f4;
-  display: table-row;
   color: #626262;
   font-size: 1.4rem;
-  white-space: nowrap; }
+  margin: 0; }
 .u-full-width th {
   padding: 20px 20px 20px 0;
-  text-align: left;
-  display: table-cell; }
+  text-align: left; }
 .u-full-width td {
-  display: table-cell; }
+  display: table-cell;
+  padding: 20px 0; }
 
 /*# sourceMappingURL=style.css.map */
